@@ -5,6 +5,7 @@ ini_set("display_startup_errors", 1);
 
 error_reporting(E_ALL);
 
+
 class SalidasDetalles extends Conectar{
     public function get_salida_Detalle(){
         try {

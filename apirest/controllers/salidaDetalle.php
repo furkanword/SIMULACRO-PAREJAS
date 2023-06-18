@@ -21,6 +21,7 @@ switch ($_GET['op']){
         echo json_encode($datos);
     break;
 
+    
 
     case "GetId":
         $datos = $salidaDetalle->get_salida_Detalle_id($body["idSalidaDetalle"]);

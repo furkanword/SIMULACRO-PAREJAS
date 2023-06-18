@@ -16,6 +16,7 @@ error_reporting(E_ALL);
 //PDO will work on 12 different database systems, whereas MySQLi will only work with MySQL databases
 
 
+
   $salidaDetalles = '[
     {
       "idSalidaDetalle": 1,
